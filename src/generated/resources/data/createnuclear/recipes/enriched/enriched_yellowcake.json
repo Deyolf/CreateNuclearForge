@@ -1,13 +1,15 @@
 {
-  "type": "createnuclear:enriched",
-  "ingredients": [
-    {
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "U": {
       "item": "createnuclear:yellowcake"
     }
+  },
+  "pattern": [
+    "U"
   ],
-  "results": [
-    {
-      "item": "createnuclear:enriched_yellowcake"
-    }
-  ]
+  "result": {
+    "item": "createnuclear:enriched_yellowcake"
+  }
 }
